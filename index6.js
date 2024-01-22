@@ -28,3 +28,8 @@ var str = 0;
 var res = !!str;
 
 console.log(res);
+// Bitwise
+// string
+// truthy & falsy
+// conversions
+// function
