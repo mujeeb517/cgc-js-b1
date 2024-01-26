@@ -1,16 +1,19 @@
 // loops
 // students agg
 // array of numbers
+// 
+// 75
+// indentation
+// Alt + Shift + F
+// 
 function calcGrade(agg) {
     if (agg >= 70) {
         return 'Distinction';
     } else if (agg > 59 && agg < 70) {
         return 'First Class';
-    }
-    else if (agg > 49 && agg < 60) {
+    } else if (agg > 49 && agg < 60) {
         return 'Second Class';
-    }
-    else if (agg > 39 && agg < 50) {
+    } else if (agg > 39 && agg < 50) {
         return 'Third Class';
     }
     return 'Failed';
@@ -31,3 +34,15 @@ function calcAgg(marks) {
 
 var res = calcAgg([50, 40, 50, 60, 70, 100]);
 console.log(res);
+
+// output
+// variables
+// data types
+// operators 
+// function
+// conditional
+// loops
+// 
+// objects
+// es6
+// 
