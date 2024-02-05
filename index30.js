@@ -2,7 +2,10 @@
 function addArr(arr) {
     var sum = 0;
     for (var i = 0; i < arr.length; i++) {
-        sum += arr[i];
+        if (Array.isArray(arr[i])) {
+            sum += addArr(arr[i]);
+        } else
+            sum += arr[i];
     }
 
     return sum;
@@ -19,7 +22,7 @@ function add(a, b) {
 }
 
 add([1, 2, 3], [4, 5, 6]);
-add([1, 2, [1, 2, 3, [1, 2, 3, [4, 5, 6]]]], [4, 5, 6]);
+add([1, 2, [1, 2, 3, [4, 5, 6]]], [4, 5, 6]);
 
 // add(10, 20);
 // add(10.20, 20.20);
