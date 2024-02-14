@@ -17,3 +17,22 @@ var obj = {
 // console.log(res);
 // objects
 // classes, functions
+
+// variables
+// data types
+// operator
+// function
+// recursion
+// conditional flow
+// loops, break, continue
+// objects
+// reflection
+// [], . notations
+// delete prop
+// async JS
+// callbacks, promises, async await
+// ES6
+// this keyword
+// serialize/deserialize
+// for of
+// modules
