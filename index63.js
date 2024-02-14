@@ -1,4 +1,5 @@
 // async await
+// this
 function addAsync(a, b) {
     return new Promise((res, rej) => {
         if (a === 0) rej('Invalid input');
@@ -27,7 +28,7 @@ function mulAsync(a, b) {
 
 async function init() {
     try {
-        const AddRes = await addAsync(10, 20);
+        const AddRes = await addAsync(0, 20);
         const subRes = await subAsync(AddRes, 10);
         const mulRes = await mulAsync(subRes, 10);
         console.log(mulRes);
